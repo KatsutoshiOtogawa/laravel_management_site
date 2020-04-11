@@ -1,0 +1,3 @@
+[submodule "homestead_vagrant"]
+	path = homestead_vagrant
+	url = https://github.com/KatsutoshiOtogawa/homestead_vagrant.git
