@@ -1,4 +1,4 @@
-# laravel_dev
+# laral_manegement_site
 laravel開発用
 これをフォークすることによりプロジェクトを作成してください。
 
