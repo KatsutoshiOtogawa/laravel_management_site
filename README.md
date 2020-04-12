@@ -14,7 +14,7 @@ $ vagrant up
 
 vagrant guestOS側で
 ```
-/home/vagrant/projects/:$ laravel new your_project
+vagrant@vagrant:~/projects/:$ laravel new your_project
 ```
 
 という形でlaravel環境を作成することができます。
