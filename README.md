@@ -2,6 +2,10 @@
 laravel開発用
 これをフォークすることによりプロジェクトを作成してください。
 
+homestead,vagrant,virtualboxな環境です。
+あらかじめ
+vagrant,virtualbox,vagrant-vbguest
+はインストールしてください。
 フォークしたプロジェクトは
 ```
 $ cd laravel_dev
