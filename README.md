@@ -33,6 +33,12 @@ vscodeなどでホスト側から
 コマンドを打つときはguest側の
 osからコマンドを入力してください。
 
+## visual studiocodeでの開発について
+```
+$ Laravel Snippets
+$ Laravel Blade Snippets
+```
+
 ## データベースについて
 homesteadを使っているため、
 mysqlは
