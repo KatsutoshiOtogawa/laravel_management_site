@@ -23,6 +23,12 @@ host側からみると
 laravel_dev/projects/
 配下にプロジェクトが作成されます。
 
+vscodeなどでホスト側から
+ファイルを修正することができます。
+
+コマンドを打つときはguest側の
+osからコマンドを入力してください。
+
 submodule側のレポジトリが更新された場合は下のコマンドで追随します。
 ```
 $ git submodule foreach git pull origin master
