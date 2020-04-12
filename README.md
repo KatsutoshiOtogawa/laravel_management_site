@@ -39,6 +39,7 @@ osからコマンドを入力してください。
 ```
 $ code --install-extension onecentlin.laravel5-snippets # Laravel Snippets
 $ code --install-extension onecentlin.laravel-blade # Laravel Blade Snippets
+$ code --install-extension thekalinga.bootstrap4-vscode # Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets
 ```
 
 ## データベースについて
