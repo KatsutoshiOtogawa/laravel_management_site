@@ -29,6 +29,32 @@ vscodeなどでホスト側から
 コマンドを打つときはguest側の
 osからコマンドを入力してください。
 
+## データベースについて
+homesteadを使っているため、
+mysqlは
+user: homestead
+password: secret
+
+user: root
+password: secret
+
+postgresqlは
+user: homestead
+password: secret
+
+user: postgres
+password: secret
+
+が予め作成されています。
+
+どちらを使うにせよ
+簡単のため、
+```
+# useradd homestead
+```
+としてGuestOS側にもホームディレクトリを作成せず、ユーザーだけ作成することをおすすめします。
+
+## submoduleについて
 submodule側のレポジトリが更新された場合は下のコマンドで追随します。
 ```
 $ git submodule foreach git pull origin master
