@@ -63,6 +63,14 @@ password: postgres
 初期設定では、laravelはmysqlが
 config/database.php
 に書かれているので、迷ったらmysqlの方がいいかも。
+
+## dataディレクトリについて
+プロジェクトの内容以外の
+GuestOS,HostOS間のデータのやりとりに利用してください。
+.gitignoreにdataフォルダ配下のファイルは無視するように
+書かれているので、それぞれの開発用PCで共有したいファイルに使うと
+いい感じです。
+
 ## submoduleについて
 submodule側のレポジトリが更新された場合は下のコマンドで追随します。
 ```
