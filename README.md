@@ -43,7 +43,7 @@ user: homestead
 password: secret
 
 user: postgres
-password: secret
+password: postgres
 
 が予め作成されています。
 
@@ -54,6 +54,12 @@ password: secret
 ```
 としてGuestOS側にもホームディレクトリを作成せず、ユーザーだけ作成することをおすすめします。
 
+また、使わない方のデータベースを
+```
+# systemctl disable [RDB to want to stop]
+```
+
+としてデータベースを止めておくこと。
 ## submoduleについて
 submodule側のレポジトリが更新された場合は下のコマンドで追随します。
 ```
