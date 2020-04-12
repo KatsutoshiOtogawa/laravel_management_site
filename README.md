@@ -60,6 +60,9 @@ password: postgres
 ```
 
 としてデータベースを止めておくこと。
+初期設定では、laravelはmysqlが
+config/database.php
+に書かれているので、迷ったらmysqlの方がいいかも。
 ## submoduleについて
 submodule側のレポジトリが更新された場合は下のコマンドで追随します。
 ```
