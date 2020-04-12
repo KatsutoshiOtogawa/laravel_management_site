@@ -22,3 +22,8 @@ vagrant guestOS側で
 host側からみると
 laravel_dev/projects/
 配下にプロジェクトが作成されます。
+
+submodule側のレポジトリが更新された場合は下のコマンドで追随します。
+```
+$ git submodule foreach git pull origin master
+```
