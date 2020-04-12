@@ -34,9 +34,11 @@ vscodeなどでホスト側から
 osからコマンドを入力してください。
 
 ## visual studiocodeでの開発について
+ほぼ必須なプラグイン一覧
+
 ```
-$ Laravel Snippets
-$ Laravel Blade Snippets
+$ code --install-extension onecentlin.laravel5-snippets # Laravel Snippets
+$ code --install-extension onecentlin.laravel-blade # Laravel Blade Snippets
 ```
 
 ## データベースについて
