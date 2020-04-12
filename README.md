@@ -5,6 +5,8 @@ laravel開発用
 フォークしたプロジェクトは
 ```
 $ cd homstead_vagrant
+$ git summodule init homestead_vagrant/
+$ git submodule update homestead_vagrant/
 $ vagrant up
 ```
 で簡単にvagrant環境を作成することができ、
