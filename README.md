@@ -7,7 +7,7 @@ laravel開発用
 $ cd laravel_dev
 $ git submodule init homestead_vagrant/
 $ git submodule update homestead_vagrant/
-$ cd homstead_vagrant
+$ cd homestead_vagrant
 $ vagrant up
 ```
 で簡単にvagrant環境を作成することができ、
